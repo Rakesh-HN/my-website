@@ -83,6 +83,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${outfit.variable} ${syne.variable}`}>
       <head>
+        <meta
+          name="google-site-verification"
+          content="j18bMSLF_7JRbAfBptbF-VuD60A9vvikqa8wjInIM78"
+        />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
