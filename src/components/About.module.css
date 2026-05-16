@@ -1,0 +1,21 @@
+.about {
+  background: var(--bg-elevated);
+  border-block: 1px solid var(--border);
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 42rem;
+}
+
+.text {
+  margin: 0;
+  font-size: 1.0625rem;
+  color: var(--text-muted);
+}
+
+.text:first-child {
+  color: var(--text);
+  font-size: 1.2rem;
+}

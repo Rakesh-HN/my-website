@@ -1,0 +1,9 @@
+{
+  "name": "Portfolio",
+  "short_name": "Portfolio",
+  "description": "Personal developer portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0b0f",
+  "theme_color": "#22d3ee"
+}

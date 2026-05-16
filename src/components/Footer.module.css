@@ -1,0 +1,27 @@
+.footer {
+  padding: 2rem 0 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.inner p {
+  margin: 0;
+}
+
+.top {
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.top:hover {
+  color: var(--accent);
+}
