@@ -1,3 +1,17 @@
 {
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "rakeshhn-gilt-iota-56.vercel.app" }],
+      "destination": "https://rakeshhn.vercel.app/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "my-website.vercel.app" }],
+      "destination": "https://rakeshhn.vercel.app/:path*",
+      "permanent": true
+    }
+  ]
 }

@@ -28,12 +28,17 @@ export const metadata: Metadata = {
   description: site.tagline,
   keywords: [
     site.name,
+    "Rakesh HN",
+    "RakeshHN",
+    "Java developer",
+    "software programming intern",
+    "web developer Bangalore",
     "portfolio",
-    "developer",
-    "full stack",
-    "web developer",
+    "MCA student",
+    "BCA developer",
     site.location,
   ],
+  applicationName: "RakeshHN Portfolio",
   authors: [{ name: site.name, url: site.siteUrl }],
   creator: site.name,
   openGraph: {
@@ -63,6 +68,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: site.siteUrl,
   },
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
 };
 
 export default function RootLayout({

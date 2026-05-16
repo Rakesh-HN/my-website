@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
-  "short_name": "Portfolio",
-  "description": "Personal developer portfolio",
+  "name": "Rakesh HN — Portfolio",
+  "short_name": "RakeshHN",
+  "description": "Rakesh HN — Software Programming Intern portfolio",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0b0f",

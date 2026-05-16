@@ -5,7 +5,7 @@ export const site = {
     "BCA graduate & MCA student — turning coffee and code into simple, useful web apps with Java, SQL, and clean frontends.",
   email: "",
   location: "Bangalore, Karnataka, India",
-  siteUrl: "https://rakeshhn-gilt-iota-56.vercel.app",
+  siteUrl: "https://rakeshhn.vercel.app",
   github: "https://github.com/Rakesh-HN",
   linkedin: "https://www.linkedin.com/in/rakesh-hn",
   twitter: "",
@@ -40,7 +40,7 @@ export const projects = [
       "Personal portfolio built with Next.js — responsive layout, SEO-ready, and deployed on Vercel.",
     tech: ["Next.js", "React", "TypeScript"],
     href: "https://github.com/Rakesh-HN/my-website",
-    live: "https://rakeshhn-gilt-iota-56.vercel.app",
+    live: "https://rakeshhn.vercel.app",
   },
   {
     title: "Web Service",
